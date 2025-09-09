@@ -8,7 +8,7 @@ $comments=$_POST['msg'];
 if(isset($name) && isset($lastname) && isset($phone) && isset($emailHelp))
 {
 	global $to_email,$vpb_message_body,$headers;
-	$to_email="amna.amjad@devbunch.com";
+	$to_email="salem@centralemeuble.com";
 	$vpb_message_body = nl2br("Dear Admin,\n
 	The user whose detail is shown below has sent this message from ".$_SERVER['HTTP_HOST']." dated ".date('d-m-Y').".\n
 	
